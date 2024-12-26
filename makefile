@@ -1,6 +1,4 @@
-# Makefile
+test:
+	go test -v -cover -count=1 ./...
 
 .PHONY: test
-
-test:
-        go test -v ./...
